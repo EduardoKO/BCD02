@@ -74,6 +74,4 @@ app.post('/repositories/:id/like', (req, res) => {
   return res.json(repositories[repositoryIndex]);
 });
 
-app.listen(3333, () => {
-  console.log('🚀 Back-end started!');
-});
+module.exports = app;
